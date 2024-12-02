@@ -13,10 +13,11 @@ body {
 }
 
 #logo {
-    text-align: center;
+    display: flex;
+    justify-content: space-around;
     background-color: black;
     padding-top: 10px;
-    padding-bottom: 5px;
+    padding-bottom: 9px;
 }
 
 h1 {
@@ -44,8 +45,19 @@ ul {
 li {
     display: inline;
     text-align: right;
-    font-size: 110%;
+    font-size: 120%;
     text-decoration: none;
+}
+
+.insta a {
+    margin-right: 30px;
+    color: black;
+    font-weight: 600;
+}
+
+.youtube a {
+    color: rgb(210, 37, 37);
+    font-weight: 600;
 }
 
 li a {
